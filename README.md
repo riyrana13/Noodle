@@ -77,7 +77,13 @@
 
 ## 📱 Screenshots
 
-_[Add your app screenshots here showing the chat interface, image upload, and AI responses]_
+<p align="left">
+  <img src="assets/start.jpg" alt="Start Screen" width="150" style="margin-right: 10px;"/>
+  <img src="assets/main_screen.jpg" alt="Main Screen" width="150" style="margin-right: 10px;"/>
+  <img src="assets/drawer.jpg" alt="Drawer" width="150" style="margin-right: 10px;"/>
+  <img src="assets/chat_screen.jpg" alt="Chat Screen" width="150" style="margin-right: 10px;"/>
+  <img src="assets/response.jpg" alt="Resonse" width="150"/>
+</p>
 
 ## 🛠️ Development
 
