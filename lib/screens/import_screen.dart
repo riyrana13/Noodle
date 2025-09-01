@@ -105,7 +105,7 @@ class _ImportScreenState extends State<ImportScreen> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Text('Noddle', style: AppTextStyles.titleLarge),
+                    const Text('Noodle', style: AppTextStyles.titleLarge),
                     const SizedBox(height: 8),
                     Container(
                       width: 60,
@@ -118,7 +118,7 @@ class _ImportScreenState extends State<ImportScreen> {
                     const Padding(
                       padding: EdgeInsets.symmetric(horizontal: 24),
                       child: Text(
-                        'Import your .task files and let Noddle manage your workflow with intelligence and elegance.',
+                        'Import your .task files and let Noodle manage your workflow with intelligence and elegance.',
                         style: AppTextStyles.subtitle,
                         textAlign: TextAlign.center,
                       ),

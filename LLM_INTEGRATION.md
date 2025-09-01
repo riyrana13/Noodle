@@ -8,7 +8,7 @@ This Flutter app now includes MediaPipe LLM integration for AI-powered chat resp
 
 ### Flutter Side
 
-- **Method Channel**: `noddle_channel`
+- **Method Channel**: `noodle_channel`
 - **Method**: `giveResponse`
 - **Parameters**:
   - `message`: User's input text

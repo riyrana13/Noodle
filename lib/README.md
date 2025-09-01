@@ -1,4 +1,4 @@
-# Noddle - Flutter Project Structure
+# Noodle - Flutter Project Structure
 
 This Flutter project follows a clean architecture pattern with organized folder structure for better maintainability and scalability.
 

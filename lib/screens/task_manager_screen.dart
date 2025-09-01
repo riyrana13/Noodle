@@ -296,7 +296,7 @@ class _TaskManagerScreenState extends State<TaskManagerScreen> {
   ) async {
     try {
       // Call method channel to get AI response
-      const platform = MethodChannel('noddle_channel');
+      const platform = MethodChannel('noodle_channel');
 
       final taskFilePath = await TaskFileService.getTaskFilePath();
       print(taskFilePath);

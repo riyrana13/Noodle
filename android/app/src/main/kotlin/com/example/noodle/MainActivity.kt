@@ -7,7 +7,7 @@ import android.util.Log
 import java.io.File
 
 class MainActivity : FlutterActivity() {
-    private val CHANNEL = "noddle_channel"
+    private val CHANNEL = "noodle_channel"
 
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
@@ -26,13 +26,13 @@ class MainActivity : FlutterActivity() {
                         val type = call.argument<String>("type") ?: "cpu"
                         
                         // Log the received data
-                        Log.d("NoddleChannel", "Message received: $message")
-                        Log.d("NoddleChannel", "Task file path: $taskFilePath")
-                        Log.d("NoddleChannel", "Session ID: $sessionId")
-                        Log.d("NoddleChannel", "Query type: $queryType")
-                        Log.d("NoddleChannel", "Has image: $hasImage")
-                        Log.d("NoddleChannel", "Image path: $imagePath")
-                        Log.d("NoddleChannel", "Processing type: $type")
+                        Log.d("NoodleChannel", "Message received: $message")
+                        Log.d("NoodleChannel", "Task file path: $taskFilePath")
+                        Log.d("NoodleChannel", "Session ID: $sessionId")
+                        Log.d("NoodleChannel", "Query type: $queryType")
+                        Log.d("NoodleChannel", "Has image: $hasImage")
+                        Log.d("NoodleChannel", "Image path: $imagePath")
+                        Log.d("NoodleChannel", "Processing type: $type")
                         
                         // Process with LLM if task file exists
                         val taskFile = File(taskFilePath)
@@ -65,7 +65,7 @@ class MainActivity : FlutterActivity() {
                         }
                         
                     } catch (e: Exception) {
-                        Log.e("NoddleChannel", "Error processing method call", e)
+                        Log.e("NoodleChannel", "Error processing method call", e)
                         result.error("ERROR", "Failed to process request", e.message)
                     }
                 }

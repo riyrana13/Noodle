@@ -8,7 +8,7 @@ class AppDelegate: FlutterAppDelegate {
     
     // Set up method channel
     let controller = mainFlutterWindow?.contentViewController as! FlutterViewController
-    let channel = FlutterMethodChannel(name: "noddle_channel", binaryMessenger: controller.binaryMessenger)
+    let channel = FlutterMethodChannel(name: "noodle_channel", binaryMessenger: controller.binaryMessenger)
     
     channel.setMethodCallHandler { [weak self] (call, result) in
       switch call.method {
@@ -24,11 +24,11 @@ class AppDelegate: FlutterAppDelegate {
           let imagePath = message?["imagePath"] as? String
           
           // Log the received data
-          print("NoddleChannel: Message received: \(userMessage)")
-          print("NoddleChannel: Task file path: \(taskFilePath)")
-          print("NoddleChannel: Query type: \(queryType)")
-          print("NoddleChannel: Has image: \(hasImage)")
-          print("NoddleChannel: Image path: \(imagePath ?? "nil")")
+          print("NoodleChannel: Message received: \(userMessage)")
+          print("NoodleChannel: Task file path: \(taskFilePath)")
+          print("NoodleChannel: Query type: \(queryType)")
+          print("NoodleChannel: Has image: \(hasImage)")
+          print("NoodleChannel: Image path: \(imagePath ?? "nil")")
           
           // For now, return a simple response acknowledging receipt
           let response = "Message received with status: true. I'm processing your request: '\(userMessage)'"
@@ -37,7 +37,7 @@ class AppDelegate: FlutterAppDelegate {
           result(response)
           
         } catch {
-          print("NoddleChannel: Error processing method call: \(error)")
+          print("NoodleChannel: Error processing method call: \(error)")
           result(FlutterError(code: "ERROR", message: "Failed to process request", details: error.localizedDescription))
         }
         
