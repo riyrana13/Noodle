@@ -78,7 +78,7 @@
 ## 📱 Screenshots
 
 <p align="left">
-  <img src="assets/start.jpg" alt="Start Screen" width="150" style="margin-right: 10px;"/>
+  <img src="assets/start_screen.jpg" alt="Start Screen" width="150" style="margin-right: 10px;"/>
   <img src="assets/main_screen.jpg" alt="Main Screen" width="150" style="margin-right: 10px;"/>
   <img src="assets/drawer.jpg" alt="Drawer" width="150" style="margin-right: 10px;"/>
   <img src="assets/chat_screen.jpg" alt="Chat Screen" width="150" style="margin-right: 10px;"/>
