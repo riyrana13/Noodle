@@ -104,8 +104,10 @@ noodle/
 ### Key Dependencies
 
 - `flutter` - UI framework
-- `google_mlkit_text_recognition` - Text extraction from images
 - `image_picker` - Image selection and capture
+- `file_picker` - File selection and capture
+- `wakelock_plus` - Wake lock implimentation
+- `sqflite` - Database
 - `path_provider` - File system access
 - `shared_preferences` - Local data storage
 
@@ -117,23 +119,11 @@ noodle/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - **Google DeepMind** for the [Gemma 3n model](https://huggingface.co/google/gemma-3n-E2B-it-litert-preview)
 - **Hugging Face** for hosting the model repository
 - **Flutter team** for the amazing cross-platform framework
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-- Open an issue on GitHub
-- Check the troubleshooting section below
-- Review the model documentation on Hugging Face
 
 ## 🔍 Troubleshooting
 
